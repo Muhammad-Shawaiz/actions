@@ -12,7 +12,7 @@ jobs:
           run: ls -ltra
 
         - name: Executing Shell Script
-          run: ./ascii-script.sh
+          run: bash ./ascii-script.sh
         
         # - name: Execute Cowsay CMD
         #   run: cowsay -f dragon "Run for cover, Iam a DRAGON.... RAWR"  >> dragon.txt
